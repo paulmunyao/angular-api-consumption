@@ -9,3 +9,7 @@ export class ConfigService {
 }
 
 configUrl = 'assets/config.json';
+
+getConfig(){
+    
+}
