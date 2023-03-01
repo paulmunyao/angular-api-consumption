@@ -1,4 +1,4 @@
 showConfig(){
     this.configService.getConfig()
-    .subscribe
+    .subscribe((data: Config) =>)
 }
