@@ -8,4 +8,4 @@ export class ConfigService {
     constructor(private http:HttpClient){ }
 }
 
-configUrl =
+configUrl = 'assets/config.json';
