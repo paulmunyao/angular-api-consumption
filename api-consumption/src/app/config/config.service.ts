@@ -14,6 +14,7 @@ getConfig() {
     return this.http.get<Config>(this.configUrl);
 }
 
+
 // function getConfig() {
 //     throw new Error('Function not implemented.');
 // }
