@@ -1,3 +1,3 @@
 showConfig(){
-    
+    this.configService.getConfig()
 }
