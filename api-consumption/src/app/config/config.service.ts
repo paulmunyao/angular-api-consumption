@@ -10,6 +10,6 @@ export class ConfigService {
 
 const configUrl = 'assets/config.json';
 
-getConfig(){
+function getConfig(){
     return this.http.get<Config>(this.configUrl);
 }
