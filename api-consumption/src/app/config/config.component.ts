@@ -5,3 +5,4 @@ showConfig(){
         textfile: data.textfile
         date: data.date
     });
+}
