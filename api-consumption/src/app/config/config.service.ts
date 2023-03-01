@@ -16,4 +16,4 @@ getConfig() {
 
 function getConfig() {
     throw new Error('Function not implemented.');
-
+}
