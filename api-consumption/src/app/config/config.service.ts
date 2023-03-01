@@ -8,12 +8,8 @@ export class ConfigService {
     constructor(private http:HttpClient){ }
 }
 
-const configUrl = 'assets/config.json';
+configUrl = 'assets/config.json';
 
 getConfig(){
     return this.http.get<Config>(this.configUrl);
-}
-
-function getConfig() {
-    throw new Error('Function not implemented.');
 }
