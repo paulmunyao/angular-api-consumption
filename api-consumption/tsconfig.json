@@ -27,7 +27,7 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
     "heroesUrl": "api/heroes",
-    "textfile": "assets/textfile.txt",
+  
     
   }
 }
