@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './api.component.html',
   styleUrls: ['./api.component.css']
 })
-export class ApiComponent {
+export class ApiComponent implements{
   public getJsonValue: any;
   public postJsonValue: any;
   constructor(private http: HttpClient) {
