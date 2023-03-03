@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class ApiComponent {
   public getJsonValue: any;
-  
+  public postJsonValue: any;
   constructor(private http: HttpClient) {
 
   }
