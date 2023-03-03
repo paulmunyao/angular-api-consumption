@@ -14,6 +14,7 @@ export class ApiComponent implements OnInit {
   }
   ngOnInit(): void {
     this.getMethod();
+    
   }
 
   // https://api.assemblyai.com/v2/transcript
