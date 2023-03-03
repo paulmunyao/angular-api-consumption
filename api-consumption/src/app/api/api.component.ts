@@ -31,3 +31,4 @@ export class ApiComponent implements OnInit {
       this.postJsonValue = data;
     });
 }
+}
