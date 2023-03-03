@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./api.component.css']
 })
 export class ApiComponent {
-  constructor(private http) {
+  constructor(private http: HttpClient) {
 
   }
 }
