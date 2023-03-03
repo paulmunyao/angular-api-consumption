@@ -16,5 +16,7 @@ export class ApiComponent implements OnInit {
     this.getMethod();
   }
 
-  public getMethod():
+  public getMethod():{
+    
+  }
 }
