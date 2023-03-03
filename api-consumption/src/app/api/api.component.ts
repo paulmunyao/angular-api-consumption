@@ -25,6 +25,6 @@ export class ApiComponent implements OnInit {
   }
 
   public postMethod(): void{
-    this.http.()
+    this.http.post()
   }
 }
