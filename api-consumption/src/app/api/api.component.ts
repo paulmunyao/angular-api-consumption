@@ -17,6 +17,6 @@ export class ApiComponent implements OnInit {
   }
 
   public getMethod():{
-    
+    this.http.get
   }
 }
