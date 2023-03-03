@@ -12,7 +12,7 @@ export class ApiComponent implements OnInit {
   constructor(private http: HttpClient) {}
   ngOnInit(): void {
     this.getMethod();
-    this.postMethod();
+    // this.postMethod();
   }
 
   // https://api.assemblyai.com/v2/transcript
