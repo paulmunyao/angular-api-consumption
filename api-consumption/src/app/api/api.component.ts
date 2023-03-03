@@ -20,7 +20,7 @@ export class ApiComponent implements OnInit {
   public getMethod(): void{
     this.http.get('https://jsonplaceholder.typicode.com/todos/1').subscribe((data)=>{
       console.log(data);
-      
+      this .getJsonValue = data
     });
   }
 }
