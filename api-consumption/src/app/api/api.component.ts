@@ -28,9 +28,9 @@ export class ApiComponent implements OnInit {
   public postMethod(): void {
     let body = {
       title: 'foo',
-    body: 'bar',
-    userId: 1,
-    }
+      body: 'bar',
+      userId: 1,
+    };
     this.http
       .post('https://jsonplaceholder.typicode.com/posts', {})
       .subscribe((data) => {
