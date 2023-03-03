@@ -16,7 +16,7 @@ export class ApiComponent implements OnInit {
     this.getMethod();
   }
 
-  getMethod():{
+  public getMethod() void:{
     this.http.get('https://jsonplaceholder.typicode.com/todos/1').subscribe();
   }
 }
