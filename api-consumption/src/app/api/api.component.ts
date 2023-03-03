@@ -30,5 +30,5 @@ export class ApiComponent implements OnInit {
       console.log(data);
       this.postJsonValue = data;
     }
-  }
+  })
 }
