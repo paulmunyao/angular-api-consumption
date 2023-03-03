@@ -27,7 +27,7 @@ export class ApiComponent implements OnInit {
 
   public postMethod(): void {
     let body = {
-      title: 'foo',
+      title: 'The art of war',
       body: 'bar',
       userId: 1,
     };
