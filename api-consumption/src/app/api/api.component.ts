@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./api.component.css']
 })
 export class ApiComponent {
-  constructor() {}
+  constructor() {
+    
+  }
 }
