@@ -32,7 +32,7 @@ export class ApiComponent implements OnInit {
       userId: 1,
     };
     this.http
-      .post('https://jsonplaceholder.typicode.com/posts', {})
+      .post('https://jsonplaceholder.typicode.com/posts', body)
       .subscribe((data) => {
         console.log(data);
         this.postJsonValue = data;
