@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./api.component.css']
 })
 export class ApiComponent {
+  public getJsonValue: any;
   constructor(private http: HttpClient) {
 
   }
