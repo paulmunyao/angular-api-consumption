@@ -16,7 +16,7 @@ export class ApiComponent implements OnInit {
     this.getMethod();
   }
 
-  https://api.assemblyai.com/v2/transcript
+  // https://api.assemblyai.com/v2/transcript
   public getMethod(): void{
     this.http.get('https://jsonplaceholder.typicode.com/todos/1').subscribe();
   }
