@@ -31,7 +31,7 @@ export class ApiComponent implements OnInit {
       body: 'Sun Tzu',
       userId: 1,
 
-    
+      
     };
     this.http
       .post('https://jsonplaceholder.typicode.com/posts', body)
