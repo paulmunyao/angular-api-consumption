@@ -17,6 +17,6 @@ export class ApiComponent implements OnInit {
   }
 
   public getMethod():{
-    this.http.get
+    this.http.get("'https://jsonplaceholder.typicode.com/todos/1'")
   }
 }
