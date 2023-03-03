@@ -18,6 +18,8 @@ export class ApiComponent implements OnInit {
 
   // https://api.assemblyai.com/v2/transcript
   public getMethod(): void{
-    this.http.get('https://jsonplaceholder.typicode.com/todos/1').subscribe((data)=>{});
+    this.http.get('https://jsonplaceholder.typicode.com/todos/1').subscribe((data)=>{
+      
+    });
   }
 }
