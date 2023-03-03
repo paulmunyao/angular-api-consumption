@@ -13,5 +13,6 @@ export class ApiComponent implements OnInit {
 
   }
   ngOnInit(): void {
+    this.getMethod();
   }
 }
