@@ -12,5 +12,7 @@ export class ApiComponent implements OnInit {
   constructor(private http: HttpClient) {
 
   }
-  ngOnInit(): void 
+  ngOnInit(): void {
+
+  }
 }
