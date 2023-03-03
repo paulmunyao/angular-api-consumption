@@ -26,7 +26,7 @@ export class ApiComponent implements OnInit {
 
   public postMethod(): void{
     this.http.post('https://jsonplaceholder.typicode.com/posts',{}).subscribe((data)=>){
-      
+      console.log(data);
     }
   }
 }
